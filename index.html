@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Группа Begin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- <div class="navigation-block">
+        <div class="icon"><i class="fas fa-th-list"></i></div>
+        <nav class="navigation-container">    
+            <ul class="filter">
+                <li data-f="Clear" class="filter-li"><div class="filter-li_content"><p class="font filetr-text">Clear</p></div></li>
+                <li data-f="Begin" class="filter-li"><div class="filter-li_content"><p class="font filetr-text">Begin</p></div></li>
+                <li data-f="Integer" class="filter-li"><div class="filter-li_content"><p class="font filetr-text">Integer</p></div></li>
+                <li data-f="Boolean" class="filter-li"><div class="filter-li_content"><p class="font filetr-text">Boolean</p></div></li>
+                <li data-f="If" class="filter-li"><div class="filter-li_content"><p class="font filetr-text">If</p></div></li>
+                <li data-f="Case" class="filter-li"><div class="filter-li_content"><p class="font filetr-text">Case</p></div></li>
+                <li data-f="For" class="filter-li"><div class="filter-li_content"><p class="font filetr-text">For</p></div></li>
+                <li data-f="While" class="filter-li"><div class="filter-li_content"><p class="font filetr-text">While</p></div></li>
+                <li data-f="Proc" class="filter-li"><div class="filter-li_content" id="flc-unical"><p class="font filetr-text">Proc</p></div></li>
+            </ul>
+        </nav>
+    </div> -->
+    <div class="script-group group-gray">
+        <div class="script-group_name"><p class="s-g_name-text font">Begin</p></div>
+        <div class="btn-s">
+            <button class="btn-sript font" onclick="script_begin1()">Begin 1</button>
+            <button class="btn-sript font" onclick="script_begin2()">Begin 2</button>
+            <button class="btn-sript font" onclick="script_begin3()">Begin 3</button>
+            <button class="btn-sript font" onclick="script_begin4()">Begin 4</button>
+            <button class="btn-sript font" onclick="script_begin5()">Begin 5</button>
+            <button class="btn-sript font" onclick="script_begin6()">Begin 6</button>
+            <button class="btn-sript font" onclick="script_begin7()">Begin 7</button>
+            <button class="btn-sript font" onclick="script_begin8()">Begin 8</button>
+            <button class="btn-sript font" onclick="script_begin9()">Begin 9</button>
+            <button class="btn-sript font" onclick="script_begin10()">Begin 10</button>
+            <button class="btn-sript font" onclick="script_begin11()">Begin 11</button>
+            <button class="btn-sript font" onclick="script_begin12()">Begin 12</button>
+            <button class="btn-sript font" onclick="script_begin13()">Begin 13</button>
+            <button class="btn-sript font" onclick="script_begin14()">Begin 14</button>
+            <button class="btn-sript font" onclick="script_begin15()">Begin 15</button>
+        </div>
+    </div>
+    <div class="script-group group">
+        <div class="script-group_name"><p class="s-g_name-text font">Integer</p></div>
+        <div class="btn-s">
+            <button class="btn-sript font" onclick="script_integer10()">Integer 10</button>
+            <button class="btn-sript font" onclick="script_integer11()">Integer 11</button>
+            <button class="btn-sript font" onclick="script_integer12()">Integer 12</button>
+            <button class="btn-sript font" onclick="script_integer19()">Integer 19</button>
+        </div>
+    </div>
+    <div class="script-group group-gray">
+        <div class="script-group_name"><p class="s-g_name-text font">Boolean</p></div>
+        <div class="btn-s">
+            <button class="btn-sript font" onclick="script_boolean1()">Boolean 1</button>
+            <button class="btn-sript font" onclick="script_boolean2()">Boolean 2</button>
+            <button class="btn-sript font" onclick="script_error()">Boolean 3</button>
+            <button class="btn-sript font" onclick="script_boolean4()">Boolean 4</button>
+            <button class="btn-sript font" onclick="script_boolean5()">Boolean 5</button>
+            <button class="btn-sript font" onclick="script_boolean6()">Boolean 6</button>
+            <button class="btn-sript font" onclick="script_boolean7()">Boolean 7</button>
+            <button class="btn-sript font" onclick="script_error()">Boolean 8</button>
+        </div>
+    </div>
+    <div class="script-group group">
+        <div class="script-group_name"><p class="s-g_name-text font">If</p></div>
+        <div class="btn-s">
+            <button class="btn-sript font" onclick="script_if12()">If 12</button>
+            <button class="btn-sript font" onclick="script_if13()">If 13</button>
+            <button class="btn-sript font" onclick="script_if14()">If 14</button>
+            <button class="btn-sript font" onclick="script_if15()">If 15</button>
+            <button class="btn-sript font" onclick="script_if16()">If 16</button>
+            <button class="btn-sript font" onclick="script_if17()">If 17</button>
+            <button class="btn-sript font" onclick="script_if18()">If 18</button>
+            <button class="btn-sript font" onclick="script_if24()">If 24</button>
+            <button class="btn-sript font" onclick="script_if25()">If 25</button>
+            <button class="btn-sript font" onclick="script_if26()">If 26</button>
+        </div>
+    </div>
+    <div class="script-group group-gray">
+        <div class="script-group_name"><p class="s-g_name-text font">Case</p></div>
+        <div class="btn-s">
+            <button class="btn-sript font" onclick="script_case1()">Case 1</button>
+        </div>
+    </div>
+    <div class="script-group group">
+        <div class="script-group_name"><p class="s-g_name-text font">If</p></div>
+        <div class="btn-s">
+            <button class="btn-sript font" onclick="script_for1()">For 1</button>
+        </div>
+    </div>
+    <div class="script-group group-gray">
+        <div class="script-group_name"><p class="s-g_name-text font">While</p></div>
+        <div class="btn-s">
+            <button class="btn-sript font" onclick="script_while1()">While 1</button>
+        </div>
+    </div>
+    <div class="script-group group">
+        <div class="script-group_name"><p class="s-g_name-text font">Series</p></div>
+        <div class="btn-s">
+            <button class="btn-sript font" onclick="script_series_NaN()">Series NaN</button>
+        <button class="btn-sript font" onclick="script_series1()">Series 1</button>
+        <button class="btn-sript font" onclick="script_series2()">Series 2</button>
+        <button class="btn-sript font" onclick="script_series3()">Series 3</button>
+        <button class="btn-sript font" onclick="script_series4()">Series 4</button>
+        </div>
+    </div>
+    <div class="script-group group-gray">
+        <div class="script-group_name"><p class="s-g_name-text font">Proc</p></div>
+        <div class="btn-s">
+            <button class="btn-sript font" onclick="script_proc1()">Proc 1</button>
+            <button class="btn-sript font" onclick="script_proc2()">Proc 2</button>
+            <button class="btn-sript font" onclick="script_proc7()">Proc 7</button> 
+            <button class="btn-sript font" onclick="script_proc8()">Proc 8</button> 
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

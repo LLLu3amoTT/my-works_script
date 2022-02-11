@@ -1,0 +1,167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.a:visited {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Основные стили */
+
+.navigation-container {
+    display: none;
+}
+
+.navigation-block {
+    height: 64px;
+    width: 64px;
+    background-color: #85dbf886;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border-radius: 150px;
+}
+
+.icon {
+    height: 64px;
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: #696969;
+}
+
+.navigation-block:hover > .navigation-container {
+    display: inherit;
+}
+
+.navigation-block:hover {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.filter-li_content {
+    height: 30px;
+    width: 100px;
+    background-color: #85dbf886;
+}
+
+#flc-unical {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.filetr-text {
+    margin-left: 20px;
+}
+
+.filter-li_content:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.navigation-container {
+    display: none;
+}
+
+.navigation-block {
+    height: 64px;
+    width: 64px;
+    background-color: #85dbf886;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border-radius: 150px;
+}
+
+.icon {
+    height: 64px;
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: #696969;
+}
+
+.script-group {
+    margin: 12px 10px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.script-group_name {
+    font-size: 50px;
+    color: #778899;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.script-group {
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.group-gray {
+    background-color: #ADD8E6;
+}
+
+.group {
+    background-color: #accad4;
+}
+
+.btn-sript {
+    height: 100px;
+    width: 150px;
+    background: none;
+    border-radius: 8px;
+    border: 2px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.btn-sript:hover {
+    background-color: rgba(180, 180, 180, 0.411);
+    transition: 0.3s;
+}
+
+.btn-visit {
+    background: rgb(33,147,90);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    color: white;
+    border-radius: 3px;
+    transition: 0.2s;
+    text-decoration: none;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 5px;
+}
